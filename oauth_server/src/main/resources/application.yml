@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: tensquare-base #指定服务名
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.237.130:3307/tensquare_base?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
